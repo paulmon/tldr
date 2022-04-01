@@ -30,3 +30,15 @@
 - Set the current date using the format `MMDDhhmmYYYY.ss` (`YYYY` and `.ss` are optional):
 
 `date {{093023592021.59}}`
+
+- Get seconds since epoch for a date-time
+
+`date —date='06/12/2012 07:21:22' +"%s"`
+
+- Get date from seconds since epoch
+
+`date -d @1620966124.350`
+
+- Get current seconds since epoch
+
+`date +%s`

@@ -18,3 +18,15 @@
 - Display a specific date (represented as a Unix timestamp) using the default format:
 
 `date -r 1473305798`
+
+- Get seconds since epoch for a date-time
+
+`date —date='06/12/2012 07:21:22' +"%s"`
+
+- Get date from seconds since epoch
+
+`date -d @1620966124.350`
+
+- Get current seconds since epoch
+
+`date +%s`
