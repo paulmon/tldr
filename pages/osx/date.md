@@ -21,7 +21,7 @@
 
 - Get seconds since epoch for a date-time
 
-`date —date='06/12/2012 07:21:22' +"%s"`
+`date --date='06/12/2012 07:21:22' +"%s"`
 
 - Get date from seconds since epoch
 
